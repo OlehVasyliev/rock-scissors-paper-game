@@ -1,0 +1,79 @@
+{"frames": {
+
+"frame_00.gif":
+{
+	"frame": {"x":2,"y":2,"w":249,"h":286},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":249,"h":286},
+	"sourceSize": {"w":249,"h":286}
+},
+"frame_01.gif":
+{
+	"frame": {"x":255,"y":2,"w":249,"h":286},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":249,"h":286},
+	"sourceSize": {"w":249,"h":286}
+},
+"frame_02.gif":
+{
+	"frame": {"x":508,"y":2,"w":249,"h":286},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":249,"h":286},
+	"sourceSize": {"w":249,"h":286}
+},
+"frame_03.gif":
+{
+	"frame": {"x":761,"y":2,"w":249,"h":286},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":249,"h":286},
+	"sourceSize": {"w":249,"h":286}
+},
+"frame_04.gif":
+{
+	"frame": {"x":1014,"y":2,"w":249,"h":286},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":249,"h":286},
+	"sourceSize": {"w":249,"h":286}
+},
+"frame_05.gif":
+{
+	"frame": {"x":1267,"y":2,"w":249,"h":286},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":249,"h":286},
+	"sourceSize": {"w":249,"h":286}
+},
+"frame_6.gif":
+{
+	"frame": {"x":1520,"y":2,"w":249,"h":286},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":249,"h":286},
+	"sourceSize": {"w":249,"h":286}
+},
+"frame_7.gif":
+{
+	"frame": {"x":1773,"y":2,"w":249,"h":286},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":249,"h":286},
+	"sourceSize": {"w":249,"h":286}
+}},
+"animations": {
+	"frame": ["frame_00.gif","frame_01.gif","frame_02.gif","frame_03.gif","frame_04.gif","frame_05.gif","frame_6.gif","frame_7.gif"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "full-seq.png",
+	"format": "RGBA8888",
+	"size": {"w":2024,"h":290},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:bcb190fed6302e507c391786204fae46:363af3ca30f15c3e328e7ac211fb1d08:d2d94e733cdffbe25235672614acd94c$"
+}
+}

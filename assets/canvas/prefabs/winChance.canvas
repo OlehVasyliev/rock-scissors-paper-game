@@ -1,0 +1,116 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "winChance",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT_6",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.afterCreate()"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "272031bb-7edb-4309-840a-cafdb4d86ab5",
+    "info": {
+      "editorName": "winChance",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "29c6cde2-d2cd-4f4a-a8e0-70687f17e72e",
+        "info": {
+          "editorName": "winChanceGroup",
+          "setAll": [],
+          "children": [
+            {
+              "type": "image",
+              "id": "0de283d1-36b8-48fb-ba16-8d1fdfbddf46",
+              "asset": "0",
+              "info": {
+                "editorName": "winChanceBg",
+                "scale.x": 600,
+                "scale.y": 20
+              }
+            },
+            {
+              "type": "image",
+              "id": "cdbeea3c-2807-4fa3-9689-f61eef286911",
+              "asset": "1",
+              "info": {
+                "editorName": "winChanceMax",
+                "x": 580,
+                "scale.x": 20,
+                "scale.y": 20
+              }
+            },
+            {
+              "type": "image",
+              "id": "90289929-d04b-42a3-9fc4-d14558f9ac57",
+              "asset": "1",
+              "info": {
+                "editorName": "winChanceCenter",
+                "x": 500,
+                "scale.x": 100,
+                "scale.y": 20,
+                "alpha": 0.65
+              }
+            },
+            {
+              "type": "image",
+              "id": "ead116fe-cf08-4b8b-b1df-c4051ef01484",
+              "asset": "2",
+              "info": {
+                "editorName": "winChanceSlider",
+                "editorField": true,
+                "scale.x": 20,
+                "scale.y": 20
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "assets",
+      "asset": "winChanceBg"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "assets",
+      "asset": "winChanceCenter"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "assets",
+      "asset": "winChanceSlider"
+    }
+  },
+  "prefab-table": {}
+}

@@ -1,0 +1,78 @@
+{
+  "assets": [
+    {
+      "type": "spritesheet",
+      "key": "btnSprite",
+      "url": "assets/images/btnSprite.jpg",
+      "frameWidth": 724,
+      "frameHeight": 304,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "background",
+      "url": "assets/images/background.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "script",
+      "key": "winChance",
+      "url": "assets/canvas/prefabs/winChance.js"
+    },
+    {
+      "type": "image",
+      "key": "winChanceBg",
+      "url": "assets/images/winChanceBg.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "winChanceSlider",
+      "url": "assets/images/winChanceSlider.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "winChanceCenter",
+      "url": "assets/images/winChanceCenter.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "full-seq",
+      "url": "assets/images/full-seq.png",
+      "frameWidth": 251,
+      "frameHeight": 288,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 2
+    },
+    {
+      "type": "image",
+      "key": "paper",
+      "url": "assets/images/paper.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "rock",
+      "url": "assets/images/rock.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "scissors",
+      "url": "assets/images/scissors.png",
+      "overwrite": false
+    }
+  ],
+  "meta": {
+    "generated": "1654090751988",
+    "app": "Phaser Editor",
+    "url": "http://phasereditor.boniatillo.com",
+    "version": "1.0",
+    "copyright": "Arian Fornaris (c) 2015,2016"
+  }
+}

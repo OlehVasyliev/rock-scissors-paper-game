@@ -1,0 +1,317 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "Level",
+    "sceneWidth": 800,
+    "sceneHeight": 600,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT_6",
+    "baseClass": "Phaser.State",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.afterCreate()"
+  },
+  "stateSettings": {
+    "scaleMode": "SHOW_ALL",
+    "pageAlignHorizontally": true,
+    "pageAlignVertically": true,
+    "stageBackgroundColor": [
+      254,
+      213,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "8a0fc0bc-e3be-4656-9585-f855ac8ba0bb",
+    "info": {
+      "editorName": "Level",
+      "setAll": [],
+      "children": [
+        {
+          "type": "image",
+          "id": "97777270-3333-4926-bf1e-83df7ad3fa9a",
+          "asset": "0",
+          "info": {
+            "editorName": "background",
+            "scale.x": 800,
+            "scale.y": 600
+          }
+        },
+        {
+          "type": "prefab",
+          "prefab": "0",
+          "id": "55b7873a-822c-488b-b765-e54970beaae9",
+          "info": {
+            "editorName": "winChanceGroup",
+            "editorField": true,
+            "x": 100,
+            "y": 23
+          }
+        },
+        {
+          "type": "spritesheet",
+          "id": "3615a56d-7a3c-4305-bd6a-35121a1e4e34",
+          "asset": "1",
+          "info": {
+            "editorName": "animHand1",
+            "editorField": true,
+            "x": 1050,
+            "y": 129,
+            "scale.x": -1,
+            "pivot.x": 0.5,
+            "pivot.y": 0.5,
+            "animations": [
+              {
+                "name": "idle",
+                "frameRate": 5,
+                "loop": true,
+                "frames": [
+                  "0",
+                  "1",
+                  "2",
+                  "3",
+                  "4"
+                ]
+              },
+              {
+                "name": "scissors",
+                "frameRate": 5,
+                "frames": [
+                  "4",
+                  "5",
+                  "5",
+                  "5",
+                  "5"
+                ]
+              },
+              {
+                "name": "rock",
+                "frameRate": 5,
+                "frames": [
+                  "4",
+                  "7",
+                  "7",
+                  "7",
+                  "7"
+                ]
+              },
+              {
+                "name": "paper",
+                "frameRate": 5,
+                "frames": [
+                  "4",
+                  "6",
+                  "6",
+                  "6",
+                  "6"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "spritesheet",
+          "id": "ad36809e-3416-463f-ad27-2530b725bd11",
+          "asset": "1",
+          "info": {
+            "editorName": "animHand0",
+            "editorField": true,
+            "x": -250,
+            "y": 129,
+            "pivot.x": 0.5,
+            "pivot.y": 0.5,
+            "animations": [
+              {
+                "name": "idle",
+                "frameRate": 5,
+                "loop": true,
+                "frames": [
+                  "0",
+                  "1",
+                  "2",
+                  "3",
+                  "4"
+                ]
+              },
+              {
+                "name": "scissors",
+                "frameRate": 5,
+                "frames": [
+                  "4",
+                  "5",
+                  "5",
+                  "5",
+                  "5"
+                ]
+              },
+              {
+                "name": "rock",
+                "frameRate": 5,
+                "frames": [
+                  "4",
+                  "7",
+                  "7",
+                  "7",
+                  "7"
+                ]
+              },
+              {
+                "name": "paper",
+                "frameRate": 5,
+                "frames": [
+                  "4",
+                  "6",
+                  "6",
+                  "6",
+                  "6"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "group",
+          "id": "d9a0fe5a-0a8c-4b26-be37-4afb965650a0",
+          "info": {
+            "editorName": "scoreWrap",
+            "x": 51,
+            "y": 37,
+            "setAll": [],
+            "children": [
+              {
+                "type": "text",
+                "id": "6d3d5de8-b45f-43e7-a5e6-830751fe0346",
+                "info": {
+                  "editorName": "score",
+                  "editorField": true,
+                  "x": 131,
+                  "y": 21,
+                  "text": "0"
+                }
+              },
+              {
+                "type": "text",
+                "id": "5ff56fcf-d59a-48b4-87c9-221527cfc615",
+                "info": {
+                  "editorName": "scoreTitle",
+                  "editorField": true,
+                  "x": 48,
+                  "y": 21,
+                  "text": "SCORE:"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "button",
+          "id": "a066b1dd-fc15-4cf2-aac1-989f592afe5b",
+          "asset": "1",
+          "info": {
+            "editorName": "rockBtn",
+            "editorField": true,
+            "name": "rockBtn",
+            "x": 123,
+            "y": 730,
+            "rotation": -1.5707963267948966,
+            "scale.x": 0.5,
+            "scale.y": 0.5
+          }
+        },
+        {
+          "type": "button",
+          "id": "645bc7b5-76bf-41a9-99d8-a283fb6b05fd",
+          "asset": "2",
+          "info": {
+            "editorName": "scissorsBtn",
+            "editorField": true,
+            "x": 328,
+            "y": 730,
+            "rotation": -1.5707963267948966,
+            "scale.x": 0.5,
+            "scale.y": 0.5
+          }
+        },
+        {
+          "type": "button",
+          "id": "048e72ba-e501-44f4-8f4f-072c58ffdf68",
+          "asset": "3",
+          "info": {
+            "editorName": "paperBtn",
+            "editorField": true,
+            "x": 568,
+            "y": 731,
+            "rotation": -1.5707963267948966,
+            "scale.x": 0.5,
+            "scale.y": 0.5
+          }
+        },
+        {
+          "type": "button",
+          "id": "d44f2697-8bef-4a8e-bb67-8c8a07fb05ee",
+          "asset": "4",
+          "info": {
+            "editorName": "btnStartGame",
+            "editorField": true,
+            "x": 300,
+            "y": 356,
+            "scale.x": 0.3,
+            "scale.y": 0.3,
+            "pivot.x": 0.5,
+            "pivot.y": 0.5,
+            "downFrame": "1",
+            "upFrame": "0"
+          }
+        }
+      ]
+    }
+  },
+  "type": "STATE",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "assets",
+      "asset": "background"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "assets",
+      "asset": "full-seq",
+      "sprite": "0"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "assets",
+      "asset": "full-seq",
+      "sprite": "5"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "assets",
+      "asset": "full-seq",
+      "sprite": "6"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "assets",
+      "asset": "btnSprite",
+      "sprite": "0"
+    }
+  },
+  "prefab-table": {"0": "WebContent/assets/canvas/prefabs/winChance.canvas"}
+}
